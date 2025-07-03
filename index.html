@@ -1,53 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF‑8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portuguese Consulate Appointments</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body{margin:0;padding:0;font-family:'Poppins',sans-serif;color:#333;background:#f7f7f7;}
-    header{height:60vh;background:url('https://via.placeholder.com/1500x800') center/cover no-repeat;position:relative;display:flex;align-items:center;justify-content:center;}
-    header::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
-    header h1{position:relative;color:#fff;font-size:2.5rem;text-align:center;}
-    nav{margin-top:15px;}
-    nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:500;}
-    main{max-width:900px;margin:40px auto;padding:0 20px;}
-    .cta{display:flex;justify-content:center;margin:30px 0;}
-    .cta a{background:#25D366;color:#fff;padding:15px 25px;border-radius:50px;text-decoration:none;font-weight:600;display:flex;align-items:center;gap:10px;transition:background .3s;}
-    .cta a:hover{background:#1ebe57;}
-    .partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:25px;align-items:center;justify-items:center;margin:50px 0;}
-    .partners img{max-width:120px;filter:grayscale(70%);transition:filter .3s,transform .3s;}
-    .partners img:hover{filter:grayscale(0);transform:scale(1.05);}
-    footer{text-align:center;padding:20px;background:#eee;font-size:.9rem;}
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #002b45;
+      padding: 40px 20px;
+      color: #fff;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #f1f1f1;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #1ebe57;
+    }
+    .partners {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+    }
+    .partners img {
+      width: 140px;
+      height: auto;
+      filter: grayscale(70%);
+      transition: filter 0.3s, transform 0.3s;
+    }
+    .partners img:hover {
+      filter: grayscale(0);
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #e5e5e5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <div><h1>Fast Consulate Appointments for Portugal</h1>
-      <nav>
-        <a href="index.html">EN</a> • <a href="pt.html">PT</a> • <a href="es.html">ES</a>
-      </nav>
-    </div>
+    <h1>Portuguese Consulate Appointments</h1>
+    <nav>
+      <a href="index.html">EN</a> | <a href="pt.html">PT</a> | <a href="es.html">ES</a>
+    </nav>
   </header>
   <main>
     <section>
-      <p>We schedule your Portuguese passport or citizen card appointment in any country. Pay only after confirmation. Guaranteed service or refund.</p>
+      <p style="font-size: 1.2rem; line-height: 1.6; text-align: center;">
+        We schedule your Portuguese passport or citizen card appointment anywhere in the world.<br>
+        Pay only after confirmation. Guaranteed service or your money back.
+      </p>
     </section>
     <div class="cta">
-      <a href="https://wa.me/5511911525807" target="_blank">
-        <img src="https://raw.githubusercontent.com/uiwjs/icon/master/svg/whatsapp.svg" width="24" alt="WhatsApp"> Contact via WhatsApp
-      </a>
+      <a href="https://wa.me/5511987654321" target="_blank">Contact via WhatsApp</a>
     </div>
     <section>
-      <h2>Our Partners</h2>
+      <h2 style="text-align: center;">Our Partners</h2>
       <div class="partners">
-        <img src="https://via.placeholder.com/120x60?text=Logo+1">
-        <img src="https://via.placeholder.com/120x60?text=Logo+2">
-        <img src="https://via.placeholder.com/120x60?text=Logo+3">
+        <img src="https://via.placeholder.com/140x60?text=Logo+1" alt="Partner 1">
+        <img src="https://via.placeholder.com/140x60?text=Logo+2" alt="Partner 2">
+        <img src="https://via.placeholder.com/140x60?text=Logo+3" alt="Partner 3">
       </div>
     </section>
   </main>
-  <footer>&copy; 2025 Portuguese Consulate Appointments</footer>
+  <footer>
+    &copy; 2025 Portuguese Consulate Appointments. All rights reserved.
+  </footer>
 </body>
 </html>
+
