@@ -1,94 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portuguese Consulate Appointments Worldwide</title>
-<style>
-body{
-  font-family: Arial, sans-serif;
-  margin:0; padding:0;
-  background:#f4f4f4;
-  color:#222;
-}
-header{
-  background:#002b45;
-  color:#fff;
-  padding:30px 20px;
-  text-align:center;
-}
-nav{
-  margin-top:10px;
-}
-nav a{
-  color:#fff;
-  text-decoration:none;
-  margin:0 8px;
-  font-weight:bold;
-}
-main{
-  max-width:800px;
-  margin:40px auto;
-  background:#fff;
-  padding:20px;
-  border-radius:8px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.1);
-}
-section{
-  margin-bottom:30px;
-}
-.contact{
-  font-size:1.2rem;
-}
-footer{
-  text-align:center;
-  padding:20px;
-  background:#ddd;
-  margin-top:40px;
-  font-size:0.9rem;
-}
-.partners{
-  display:flex;
-  flex-wrap:wrap;
-  gap:20px;
-  justify-content:center;
-}
-.partners img{
-  width:120px; height:60px;
-  object-fit:contain;
-  background:#eee;
-  border-radius:4px;
-}
-</style>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portuguese Consulate Appointments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;padding:0;font-family:'Poppins',sans-serif;color:#333;background:#f7f7f7;}
+    header{height:60vh;background:url('https://via.placeholder.com/1500x800') center/cover no-repeat;position:relative;display:flex;align-items:center;justify-content:center;}
+    header::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+    header h1{position:relative;color:#fff;font-size:2.5rem;text-align:center;}
+    nav{margin-top:15px;}
+    nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:500;}
+    main{max-width:900px;margin:40px auto;padding:0 20px;}
+    .cta{display:flex;justify-content:center;margin:30px 0;}
+    .cta a{background:#25D366;color:#fff;padding:15px 25px;border-radius:50px;text-decoration:none;font-weight:600;display:flex;align-items:center;gap:10px;transition:background .3s;}
+    .cta a:hover{background:#1ebe57;}
+    .partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:25px;align-items:center;justify-items:center;margin:50px 0;}
+    .partners img{max-width:120px;filter:grayscale(70%);transition:filter .3s,transform .3s;}
+    .partners img:hover{filter:grayscale(0);transform:scale(1.05);}
+    footer{text-align:center;padding:20px;background:#eee;font-size:.9rem;}
+  </style>
 </head>
 <body>
-<header>
-  <h1>Portuguese Consulate Appointments Worldwide</h1>
-  <nav>
-    <a href="index.html">EN</a> | <a href="pt.html">PT</a> | <a href="es.html">ES</a>
-  </nav>
-</header>
-<main>
-  <section>
-    <h2>Fast appointments at Portuguese consulates anywhere</h2>
-    <p>We schedule your Portuguese passport or citizen card appointment in any country. Pay only after we book. Guaranteed service or refund.</p>
-  </section>
-  <section class="contact">
-    <h3>Contact</h3>
-    <p>WhatsApp: +55 11 98765‑4321</p>
-  </section>
-  <section>
-    <h3>Our Partners</h3>
-    <div class="partners">
-      <!-- Partner logos go here -->
-      <img src="https://via.placeholder.com/120x60?text=Logo+1" alt="Partner 1">
-      <img src="https://via.placeholder.com/120x60?text=Logo+2" alt="Partner 2">
-      <img src="https://via.placeholder.com/120x60?text=Logo+3" alt="Partner 3">
+  <header>
+    <div><h1>Fast Consulate Appointments for Portugal</h1>
+      <nav>
+        <a href="index.html">EN</a> • <a href="pt.html">PT</a> • <a href="es.html">ES</a>
+      </nav>
     </div>
-  </section>
-</main>
-<footer>
-  &copy; 2025 Agendamentos Consulares. All rights reserved.
-</footer>
+  </header>
+  <main>
+    <section>
+      <p>We schedule your Portuguese passport or citizen card appointment in any country. Pay only after confirmation. Guaranteed service or refund.</p>
+    </section>
+    <div class="cta">
+      <a href="https://wa.me/5511911525807" target="_blank">
+        <img src="https://raw.githubusercontent.com/uiwjs/icon/master/svg/whatsapp.svg" width="24" alt="WhatsApp"> Contact via WhatsApp
+      </a>
+    </div>
+    <section>
+      <h2>Our Partners</h2>
+      <div class="partners">
+        <img src="https://via.placeholder.com/120x60?text=Logo+1">
+        <img src="https://via.placeholder.com/120x60?text=Logo+2">
+        <img src="https://via.placeholder.com/120x60?text=Logo+3">
+      </div>
+    </section>
+  </main>
+  <footer>&copy; 2025 Portuguese Consulate Appointments</footer>
 </body>
 </html>
